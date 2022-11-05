@@ -46,7 +46,7 @@ promotionRouter.route('/:promotionId')
         with description: ${req.body.description}`);
     })
     .delete((req, res) => {
-        res.end(`Deleting campsite: ${req.params.campsiteId}`)
+        res.end(`Deleting promotion: ${req.params.promotionId}`)
     });
 
     module.exports = promotionRouter;
